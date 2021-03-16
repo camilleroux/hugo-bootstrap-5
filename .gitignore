@@ -2,3 +2,6 @@ node_modules/
 dist/
 exampleSite/themes
 exampleSite/public
+
+# OSX
+.DS_Store

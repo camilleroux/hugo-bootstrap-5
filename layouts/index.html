@@ -12,6 +12,8 @@
 <section class="blog-post">
     {{ .Content }}
 </section>
+{{ else }} 
+TEST
 {{ end }}
 
 {{ $paginator := .Paginate (where .Pages "Section" "in" .Site.Params.mainSections) }}

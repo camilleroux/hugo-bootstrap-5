@@ -7,8 +7,13 @@
 {{ $colorScheme := default "light" .Site.Params.footer.colorScheme }}
 
 <footer class="blog-footer w-100">
-    <nav class="navbar navbar-{{ $colorScheme }} bg-{{ $colorScheme }}">
-        <p class="w-100 text-center">{{ $copyright }}</p>
-        <p class="w-100 text-center"><a href="#">{{ i18n "backToTop" }}</a></p>
-    </nav>
+    <div class="social">
+        <i class="fab fa-soundcloud"></i>
+        <i class="fab fa-spotify"></i>
+        <i class="fab fa-deezer"></i>
+        <i class="fab fa-apple"></i>
+        <i class="fab fa-napster"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-facebook"></i>
+    </div>
 </footer>
